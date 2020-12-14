@@ -10,6 +10,10 @@ import elementClosest from 'element-closest';
 elementClosest(window);
 
 import changeNumber from './modules/changeNumber';
-
+import changeDialogMenu from './modules/dialogMenu';
+import TableDate from './modules/TableDate';
 
 changeNumber();
+changeDialogMenu();
+
+TableDate();
