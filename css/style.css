@@ -766,6 +766,11 @@ template, [hidden] {
   .formula-slider {
     min-height: 400px;
     margin-top: 102px; }
+    @media (max-width: 1024) {
+      .formula-slider {
+        display: flex;
+      }
+    }
     @media (max-width: 575px) {
       .formula-slider {
         min-height: 265px;
@@ -808,7 +813,8 @@ template, [hidden] {
       .formula-slider-wrap {
         width: 290px;
         margin-left: auto;
-        margin-right: auto; } }
+        margin-right: auto;
+        overflow: hidden; } }
   .formula .row {
     height: 100%;
     min-height: 95px; }
